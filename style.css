@@ -1,0 +1,157 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+Header{
+    height: 100vh;
+    width: 100%;
+    display: grid;
+}
+.top{
+    height: 8vh;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    background-color: rgb(237, 237, 237);
+}
+.title{
+    padding-left: 20px;
+}
+.head-link{
+    display: flex;
+    justify-content: space-evenly;
+}
+.head-link li{
+    list-style: none;
+    padding-right: 35px;
+}
+.head-link li:last-child{
+    background-color: rgb(59, 193, 255);
+    height: 25px;
+    /* width: 20px; */
+    padding: 2px 8px;
+    border-radius: 3px;
+}
+.head-link li a {
+    text-decoration: none;
+    color: black;
+}
+.head-link li a:hover{
+    color: red;
+}
+.bottom{
+    height: 92vh;
+    background-image: url(./img/mv-2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.latest{
+    height: 55vh;
+    background-color: black;
+}
+.latest h2{
+    color: yellow;
+    text-align: center;
+    padding: 10px 5px;
+    font-family: sans-serif;
+}
+/* .l-mv{
+    display: flex;
+    flex-direction: column;
+} */
+.l-mv ul{
+    display: flex;
+    justify-content: center;
+}
+.l-img {
+    width: 250px;
+    height: 320px;
+    padding: 15px;
+    border-radius: 20px;
+   transform: 5s;
+}
+.l-img:hover{
+    width: 260px;
+    height: 330px;
+}
+.featured{
+    height : 60vh;
+    background-color: rgba(14, 14, 14, 1);
+}
+.f-top p{
+    color: yellow;
+    padding: 10px;
+}
+.f-bottom ul {
+    display: flex;
+    flex-shrink: 1;
+    padding-left: 8px;
+}
+.f-story{
+    height: 52vh;
+    background-color: rgb(20, 20, 20);
+    margin: 3px;
+}
+.f-story img {
+    width: 400px;
+    height: 295px;
+}
+.f-story h4 {
+    color: white;
+}
+.f-story p{
+    color: blue
+}
+.select{
+    display: flex;
+    justify-content: space-between;
+    background-color: black;
+    color: white;
+    padding: 10px 0px 0px 10px;
+}
+.select h3{
+    color: yellow;
+}
+.top-picks{
+    display: flex;
+    color: white;
+    background-color: black;
+    height: 60vh;
+}
+.top-pick{
+    height: 40vh;
+}
+.p{
+    display: flex;
+}
+.picks{
+    background-color: rgb(23, 23, 23);
+    border-radius: 5px;
+    width: 180px;
+    height: 350px;
+}
+.picks img{
+    height: 250px;
+    width: 180px;
+    border-radius: 5px 5px 0px 0px;
+}
+.p-bot{
+    /* padding-left: 5px; */
+}
+.watchl{
+    color: blue;
+    padding: 5px 15px;
+    width: 175px;
+    border: 0px;
+    margin: 2px;
+    background-color: rgb(50, 50, 50) ;
+}
+.trail{
+    color: white;
+    padding: 5px 15px;
+    width: 175px;
+    border: 0px;
+    margin: 2px;
+    background-color: black;
+}
