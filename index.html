@@ -7,173 +7,421 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <Header>
+    <Header id="head">
         <div class="top">
             <div class="title">MOV-WEB</div>
-            <ul class="head-link">
-                <li><a href="">Home</a></li>
-                <li><a href="">Latest</a></li>
-                <li><a href="">Ratings</a></li>
-                <li><a href="">About</a></li>
-                <li><a href="">Subscribe</a></li>
-            </ul>
+            <div class="list">
+              <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Latest</a></li>
+                <li><a href="#">Ratings</a></li>
+                <li><a href="#">About</a></li>  
+              </ul>
+            </div>
+            <div class="sub-bt">
+                <a href="/"><i class="fi fi-rr-user"></i></a>
+            </div>
         </div>
-        <div class="bottom">
+        <div class="center">
+           <h2>Welcome Lorem ipsum dolor sit amet.</h2>
+           <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae laboriosam et a totam quidem nulla 
+            delectus adipisci accusamus reprehenderit! Est in, iste eaque dicta sed nemo nostrum non, deleniti, 
+            quae odio exercitationem esse! A, rerum quidem.Quis illo ipsum soluta obcaecati, at ea reprehenderit
+            ipsam rem fugit. Odio, ipsam perspiciatis?
+            </p>
         </div>
+        <div class="links">
+         <ul class="social-link">
+            <li><a href="/"><i class="fi fi-brands-twitter icon" ></i></a></li>
+            <li><a href="/"><i class="fi fi-brands-facebook icon"></i></a></li>
+            <li><a href="/"><i class="fi fi-brands-instagram icon"></i></a></li>
+            <li><a href="/"><i class="fi fi-brands-youtube icon"></i></a></li>
+         </ul>
+        </div>
+       
+        
     </Header>
     <Main>
         <div class="latest">
             <h2>LATEST</h2>
             <div class="l-mv">
-                <ul>
-                    <li><button>Prev</button></li>
-                    <li><img class="l-img" src="./img/mv-01.jpeg" alt=""></li>
-                    <li><img class="l-img" src="./img/mv-02.jpeg" alt=""></li>
-                    <li><img class="l-img" src="./img/mv-03.jpeg" alt=""></li>
-                    <li><img class="l-img" src="./img/mv-04.jpeg" alt=""></li>
-                    <li><img class="l-img" src="./img/mv-05.jpeg" alt=""></li>
-                    <li><img class="l-img" src="./img/mv-06.jpeg" alt=""></li>
-                    <li><button>Next</button></li>
+                    <button class="arrow prev">&#10094</button>
+                    <button class="arrow next">&#10095</button>
+                <ul class="l-mv-ul">
+                    <li>
+                        <img class="l-img" src="./img/mv-01.jpeg" alt="">
+                        <div class="li-text">
+                            <h2>Fast X</h2>
+                            <p>
+                                Lorem ipsum dolor sit amet consectetur adipisicing
+                                 elit. Ex deserunt vitae reiciendis vel <a href="/">Read More</a>
+                            </p>
+                            <div class="l-d">
+                                <p><i></i> 5.8</p>
+                                <button>Call</button>
+                            </div>
+                        </div>
+                    </li>
+                    <li>
+                        <img class="l-img" src="./img/mv-02.jpeg" alt="">
+                        <div class="li-text">
+                            <h2>James bond</h2>
+                            <p>
+                                Lorem ipsum dolor sit amet consectetur adipisicing
+                                 elit. Ex deserunt vitae reiciendis vel
+                                 <a href="/">Read More</a>
+                            </p>
+                            <div class="l-d">
+                                <p><i></i> 5.8</p>
+                                <button>Call</button>
+                            </div>
+                        </div>
+                    </li>
+                    <li>
+                        <img class="l-img" src="./img/mv-03.jpeg" alt="">
+                        <div class="li-text">
+                            <h2>Doctor strange</h2>
+                            <p>
+                                Lorem ipsum dolor sit amet consectetur adipisicing
+                                 elit. Ex deserunt vitae reiciendis vel
+                                 <a href="/">Read More</a>
+                            </p>
+                            <div class="l-d">
+                                <p><i></i> 5.8</p>
+                                <button>Call</button>
+                            </div>
+                        </div>
+                    </li>
+                    <li>
+                        <img class="l-img" src="./img/mv-04.jpeg" alt="">
+                        <div class="li-text">
+                            <h2>Spiderman</h2>
+                            <p>
+                                Lorem ipsum dolor sit amet consectetur adipisicing
+                                 elit. Ex deserunt vitae reiciendis vel
+                                 <a href="/">Read More</a>
+                            </p>
+                            <div class="l-d">
+                                <p><i></i> 5.8</p>
+                                <button>Call</button>
+                            </div>
+                        </div>
+                    </li>
+                    <li>
+                        <img class="l-img" src="./img/mv-05.jpeg" alt="">
+                        <div class="li-text">
+                            <h2>Joker</h2>
+                            <p>
+                                Lorem ipsum dolor sit amet consectetur adipisicing
+                                 elit. Ex deserunt vitae reiciendis vel
+                                 <a href="/">Read More</a>
+                            </p>
+                            <div class="l-d">
+                                <p><i></i> 5.8</p>
+                                <button>Call</button>
+                            </div>
+                        </div>
+                    </li>
+                    <li>
+                        <img class="l-img" src="./img/mv-06.jpeg" alt="">
+                        <div class="li-text">
+                            <h2>Aladin</h2>
+                            <p>
+                                Lorem ipsum dolor sit amet consectetur adipisicing
+                                 elit. Ex deserunt vitae reiciendis vel
+                                 <a href="/">Read More</a>
+                            </p>
+                            <div class="l-d">
+                                <p><i></i> 5.8</p>
+                                <button>Call</button>
+                            </div>
+                        </div>
+                    </li>
                 </ul>
             </div>
         </div>
         <div class="featured">
-            <div class="f-top">
-                <p>Featured Stories</p>
-            </div>
-            <div class="f-bottom">
-                <ul>
+            <h1>Featured Stories</h1>
+            <div class="f">
+                <button class="arrow f-prev">&#10094</button>
+                <button class="arrow f-next">&#10095</button>
+                <ul class="f-s-ul">
                     <li class="f-story">
                         <img src="./img/mv-3.jpg" alt="">
                         <div class="st-details">
                             <h4>The Best New Shows and Movies in October.</h4>
-                         <p>See Our Picks</p>
+                            <a>See Our Picks</a>
                         </div>
-                        
                     </li>
                     <li class="f-story">
                         <img src="./img/mv-3.jpg" alt="">
-                        <h4>The Best New Shows and Movies in October.</h4>
-                        <p>See Our Picks</p>
+                        <div class="st-details">
+                            <h4>The Best New Shows and Movies in October.</h4>
+                            <a>See Our Picks</a>
+                        </div>
                     </li>
                     <li class="f-story">
                         <img src="./img/mv-3.jpg" alt="">
-                        <h4>The Best New Shows and Movies in October.</h4>
-                        <p>See Our Picks</p>
+                        <div class="st-details">
+                            <h4>The Best New Shows and Movies in October.</h4>
+                            <a>See Our Picks</a>
+                        </div>
                     </li>
                     <li class="f-story">
                         <img src="./img/mv-3.jpg" alt="">
-                        <h4>The Best New Shows and Movies in October.</h4>
-                        <p>See Our Picks</p>
+                        <div class="st-details">
+                            <h4>The Best New Shows and Movies in October.</h4>
+                            <a>See Our Picks</a>
+                        </div>
                     </li>
                 </ul>
             </div>
         </div>
     </Main>
-    <section>
+    <section class="tp">
         <div class="select">
             <h3>What to watch</h3>
-            <p>Get more recommendations <i>></i></p>
+            <p>Get more recommendations <i>&#10095</i></p>
         </div>
         <div class="top-picks">
-            <div class="top-pick">
-                <h3>Top Picks</h3>
-                <p>Tv shows and movies just for you</p>
-                <a href="">Sign in</a>
-                <div class="p">
-                    <div class="picks">
-                        <div class="p-top">
-                            <img src="./img/mv-07.jpeg" alt="">
-                        </div>
-                        <div class="p-bot">
-                            <span>
-                              <i></i>
-                              <p>8.2</p>
-                              <i></i>
-                            </span>
-                            <p>SpiderMan-Homecoming</p>
-                            <button class="watchl"> + Watchlist </button>
-                            <button class="trail"><i></i> Trailer <i></i></button>
-                        </div> 
+                <div class="tp-top">
+                        <h3>Top Picks</h3>
+                        <p>Tv shows and movies just for you</p>
+                        <div class="p">
+                            <div class="picks">
+                                <div class="p-top">
+                                    <img src="./img/mv-07.jpeg" alt="">
+                                </div>
+                                <div class="p-bot">
+                                    <span>
+                                    <i></i>
+                                    <p>8.2</p>
+                                    <i></i>
+                                    </span>
+                                    <p>SpiderMan-Homecoming</p>
+                                </div> 
+                                <div class="p-button">
+                                    <button class="watchl"> + Watchlist </button>
+                                    <button class="trail"><i></i> Trailer <i></i></button>
+                                </div>
+                            </div>
 
-                    </div>
+                            <div class="picks">
+                                <div class="p-top">
+                                    <img src="./img/mv-07.jpeg" alt="">
+                                </div>
+                                <div class="p-bot">
+                                    <span>
+                                    <i></i>
+                                    <p>8.2</p>
+                                    <i></i>
+                                    </span>
+                                    <p>SpiderMan-Homecoming</p>
+                                </div> 
+                                <div class="p-button">
+                                    <button class="watchl"> + Watchlist </button>
+                                    <button class="trail"><i></i> Trailer <i></i></button>
+                                </div>
+                            </div>
 
-                    <div class="picks">
-                        <div class="p-top">
-                            <img src="./img/mv-07.jpeg" alt="">
-                        </div>
-                        <div class="p-bot">
-                            <span>
-                              <i></i>
-                              <p>8.2</p>
-                              <i></i>
-                            </span>
-                            <p>SpiderMan-Homecoming</p>
-                            <button class="watchl"> + Watchlist </button>
-                            <button class="trail"><i></i> Trailer <i></i></button>
-                        </div> 
-                        
-                    </div>
+                            <div class="picks">
+                                <div class="p-top">
+                                    <img src="./img/mv-07.jpeg" alt="">
+                                </div>
+                                <div class="p-bot">
+                                    <span>
+                                    <i></i>
+                                    <p>8.2</p>
+                                    <i></i>
+                                    </span>
+                                    <p>SpiderMan-Homecoming</p>
+                                </div> 
+                                <div class="p-button">
+                                    <button class="watchl"> + Watchlist </button>
+                                    <button class="trail"><i></i> Trailer <i></i></button>
+                                </div>
+                            </div>
 
-                    <div class="picks">
-                        <div class="p-top">
-                            <img src="./img/mv-07.jpeg" alt="">
-                        </div>
-                        <div class="p-bot">
-                            <span>
-                              <i></i>
-                              <p>8.2</p>
-                              <i></i>
-                            </span>
-                            <p>SpiderMan-Homecoming</p>
-                            <button class="watchl"> + Watchlist </button>
-                            <button class="trail"><i></i> Trailer <i></i></button>
-                        </div> 
-                        
-                    </div>
+                            <div class="picks">
+                                <div class="p-top">
+                                    <img src="./img/mv-07.jpeg" alt="">
+                                </div>
+                                <div class="p-bot">
+                                    <span>
+                                    <i></i>
+                                    <p>8.2</p>
+                                    <i></i>
+                                    </span>
+                                    <p>SpiderMan-Homecoming</p>
+                                </div> 
+                                <div class="p-button">
+                                    <button class="watchl"> + Watchlist </button>
+                                    <button class="trail"><i></i> Trailer <i></i></button>
+                                </div>
+                            </div>
 
-                    <div class="picks">
-                        <div class="p-top">
-                            <img src="./img/mv-07.jpeg" alt="">
+                            <div class="picks">
+                                <div class="p-top">
+                                    <img src="./img/mv-07.jpeg" alt="">
+                                </div>
+                                <div class="p-bot">
+                                    <span>
+                                    <i></i>
+                                    <p>8.2</p>
+                                    <i></i>
+                                    </span>
+                                    <p>SpiderMan-Homecoming</p>
+                                </div> 
+                                <div class="p-button">
+                                    <button class="watchl"> + Watchlist </button>
+                                    <button class="trail"><i></i> Trailer <i></i></button>
+                                </div>
+                            </div>
                         </div>
-                        <div class="p-bot">
-                            <span>
-                              <i></i>
-                              <p>8.2</p>
-                              <i></i>
-                            </span>
-                            <p>SpiderMan-Homecoming</p>
-                            <button class="watchl"> + Watchlist </button>
-                            <button class="trail"><i></i> Trailer <i></i></button>
-                        </div> 
-                        
                     </div>
+            </div>
+    </section>
+    <section class="wl">
+        <h3>Watchlist</h3>
+        <p>From your Watchlist ></p>
+        <div class="add-watch">
+            <i></i>
+            <h3>Sign in to acces your Watchlist</h3>
+            <p>Save shows and movies to keep track of what you want to watch. </p>
+        </div>
+        <button class="adw-bt">Sign in to MOV-WEB</button>
+    </section>
+    <section class="rec">
+        <div class="r-top">
+            <h3>Recommended</h3>
+            <p>Explore based on your lists</p>
+        </div>
+        <div class="r-bot">
+            <div class="recs">
+                <div class="rec-top">
+                    <img src="./img/mv-04.jpeg" alt="">
+                </div>
+                <div class="rec-bot">
+                    <span>
+                    <i></i>
+                    <p>8.2</p>
+                    <i></i>
+                    </span>
+                    <p>SpiderMan-Homecoming</p>
+                </div> 
+                <div class="rec-button">
+                    <button class=""> + Watchlist </button>
+                    <button class=""><i></i> Trailer <i></i></button>
+                </div>
+            </div>
 
-                    <div class="picks">
-                        <div class="p-top">
-                            <img src="./img/mv-07.jpeg" alt="">
-                        </div>
-                        <div class="p-bot">
-                            <span>
-                              <i></i>
-                              <p>8.2</p>
-                              <i></i>
-                            </span>
-                            <p>SpiderMan-Homecoming</p>
-                            <button class="watchl"> + Watchlist </button>
-                            <button class="trail"><i></i> Trailer <i></i></button>
-                        </div> 
-                        
-                    </div>
+            <div class="recs">
+                <div class="rec-top">
+                    <img src="./img/mv-11.jpeg" alt="">
+                </div>
+                <div class="rec-bot">
+                    <span>
+                    <i></i>
+                    <p>8.2</p>
+                    <i></i>
+                    </span>
+                    <p>SpiderMan-Homecoming</p>
+                </div> 
+                <div class="rec-button">
+                    <button class=""> + Watchlist </button>
+                    <button class=""><i></i> Trailer <i></i></button>
+                </div>
+            </div>
+
+            <div class="recs">
+                <div class="rec-top">
+                    <img src="./img/mv-06.jpeg" alt="">
+                </div>
+                <div class="rec-bot">
+                    <span>
+                    <i></i>
+                    <p>8.2</p>
+                    <i></i>
+                    </span>
+                    <p>SpiderMan-Homecoming</p>
+                </div> 
+                <div class="rec-button">
+                    <button class=""> + Watchlist </button>
+                    <button class=""><i></i> Trailer <i></i></button>
+                </div>
+            </div>
+
+            <div class="recs">
+                <div class="rec-top">
+                    <img src="./img/mv-10.jpeg" alt="">
+                </div>
+                <div class="rec-bot">
+                    <span>
+                    <i></i>
+                    <p>8.2</p>
+                    <i></i>
+                    </span>
+                    <p>SpiderMan-Homecoming</p>
+                </div> 
+                <div class="rec-button">
+                    <button class=""> + Watchlist </button>
+                    <button class=""><i></i> Trailer <i></i></button>
+                </div>
+            </div>
+
+            <div class="recs">
+                <div class="rec-top">
+                    <img src="./img/mv-08.jpeg" alt="">
+                </div>
+                <div class="rec-bot">
+                    <span>
+                    <i></i>
+                    <p>8.2</p>
+                    <i></i>
+                    </span>
+                    <p>SpiderMan-Homecoming</p>
+                </div> 
+                <div class="rec-button">
+                    <button class=""> + Watchlist </button>
+                    <button class=""><i></i> Trailer <i></i></button>
+                </div>
+            </div>
+
+            <div class="recs">
+                <div class="rec-top">
+                    <img src="./img/mv-10.jpeg" alt="">
+                </div>
+                <div class="rec-bot">
+                    <span>
+                    <i></i>
+                    <p>8.2</p>
+                    <i></i>
+                    </span>
+                    <p>SpiderMan-Homecoming</p>
+                </div> 
+                <div class="rec-button">
+                    <button class=""> + Watchlist </button>
+                    <button class=""><i></i> Trailer <i></i></button>
                 </div>
             </div>
         </div>
     </section>
-    <section>
-        
-    </section>
     <footer>
-
+        <div class="sign">
+            <button>Sign in for more access</button>
+        </div>
+        <div class="foot-link">
+            <ul>
+                <li><a href="#">face</a></li>
+                <li><a href="#">tik</a></li>
+                <li><a href="#">googl</a></li>
+                <li><a href="#">tube</a></li>
+                <li><a href="#">tweet</a></li>
+                <li><a href="#">insta</a></li>
+            </ul>
+        </div>
     </footer>
+    <script src="script.js"></script>
 </body>
 </html>
