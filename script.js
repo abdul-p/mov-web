@@ -1,20 +1,20 @@
 // Image change
-// (function () {
-//   const image = document.getElementById("head");
-//   let images = ['./img/mv-05.jpeg' , './img/mv-04.jpeg', './img/mv-03.jpeg'];
+(function () {
+  const image = document.getElementById("head");
+  let images = ['./img/mv-05.jpeg' , './img/mv-04.jpeg', './img/mv-03.jpeg'];
  
-//    let i = 0 ;
-//   function timer () { 
-//     let im = images[i];
-//     console.log(i)
-//     image.style.backgroundImage = "url('"+im+"')";
-//     console.log(images.length);
-//     images.length -1 === i ?  i = 0 : i++ ;
+   let i = 0 ;
+  function timer () { 
+    let im = images[i];
+    console.log(i)
+    image.style.backgroundImage = "url('"+im+"')";
+    console.log(images.length);
+    images.length -1 === i ?  i = 0 : i++ ;
     
-//   }
-//   console.log(i);
-//   setInterval(timer,5000) ;
-// })();
+  }
+  console.log(i);
+  setInterval(timer,5000) ;
+})();
 
 
 

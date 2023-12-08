@@ -9,7 +9,7 @@
     font-family: 'Roboto Condensed', sans-serif;
 }
 Header{
-    min-height: 80vh;
+    height: 80vh;
     max-width: 100%;
     display: grid;
     grid-template-columns: repeat(12, 1fr);
@@ -445,23 +445,52 @@ main{
     border-radius: 5px 5px 0px 0px;
 }
 .rec-top{
-
+     height: 60% ;
 }
 .rec-bot{
-    padding: 5px;
+    padding: 10px;
     margin-top: 5px;
     text-align: center;
+}
+.rec-button {
+    padding: 0px 10px;
 }
 footer{
     background-color: black;
     text-align: center;
     padding-top: 30px;
+    min-height: 20vh;
+}
+.sign button{
+    display: flex;
+    margin: auto;
+    margin-top: 15px;
+    color: #fff3fa;
+    padding: 10px;
+    background-color: #ED5E93;
+    border: none;
+    border-radius: 20px;
+}
+footer > p{
+    color: #fff3fa;
+    padding: 10px 0px;
 }
 .foot-link ul {
     display: flex;
-    justify-content: center;
+    justify-content: space-around;
     align-items: center;
 }
-@media screen and (max-width: ) {
+@media screen and (max-width: 960px ) {
+    .center{
+        grid-column: 3/ span 8;
+    }
     
+}
+@media screen and (max-width: 550px) {
+    .top .list{
+        visibility: hidden;
+    }
+    .top{
+        grid-column: 6/ span 4;
+    }
 }

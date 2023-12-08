@@ -1,0 +1,13 @@
+let Data = [
+    {
+        "name" : "Fast X" ,
+        "description" : "Lorem ipsum dolor sit amet consectetur adipisicing
+                         elit. Ex deserunt vitae reiciendis vel ",
+        "ratings" : 6.5 ,
+        "img" : "./img/mv-01.jpeg" ,
+        "release-date" : 2022 ,
+        "box-office" : "1.5 billion" ,
+        "characters" : "" ,
+        "producer" : ""
+    }
+];
