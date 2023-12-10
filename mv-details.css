@@ -1,0 +1,21 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body {
+    display: grid;
+    height: 100vh;
+    grid-template-columns: 0.5fr 8fr 2fr;
+}
+.left{
+    background-color: #fff3fa;
+}
+
+.mid{
+    background-color: #d3fbd8;
+}
+
+.right{
+    background-color: #fff3fa;
+}
